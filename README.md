@@ -55,13 +55,6 @@ post_process_func = lambda x: x.split("[/INST]")[0].strip()
 language = "bash"
 setting = "Bourne Shell"
 template = TemplateV2(language, setting)
-
-
-
-
-  
-
-
 data_path_template = "data/bash/nl2bash/nl2bash_fs_{}.json"
 image_name_template = "intercode-nl2bash{}"
 
